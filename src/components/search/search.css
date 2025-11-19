@@ -1,0 +1,41 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    display: flex;
+    border: 1px solid rgb(236, 238, 239);
+    align-items: center;
+}
+.search-input {
+    padding: 10px;
+    width: 97%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.search-input:focus {
+    outline: none;
+}
+
+.search-icon{
+    color: gray;
+}
+
+.search-box-small{
+    width: 300px;
+    padding: 2px;
+}
+
+.search-box-medium{
+    width: 600px;
+    padding: 5px;
+}
+
+.search-box-large{
+    width: 100%;
+    padding: 10px;
+}
+
